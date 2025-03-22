@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopMe | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1><a href="index.html">ShopMe</a></h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main >
+        <div class="form-container"><h2 class="contact_underline">Contact Us</h2></div>
+        <!-- Form Section -->
+        <section class="contact_us_form">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Type Your Message Below:</label><br>
+                <textarea id="message" name="message" rows="7" cols="23" required></textarea><br><br>
+
+                <button type="submit" class="button">Send Message</button>
+                <button type="reset" class="button">Clear Message</button>
+            </form>
+        </section>
+
+        <section>
+            <div class="form-container"><h2 class="contact_underline">Our Location</h2></div>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.978022254398!2d100.38382217422982!3d6.133655127572455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b5ac489a998b9%3A0x3fa53e13f07fbb01!2sAlbukhary%20International%20University%20(AIU)!5e0!3m2!1sen!2smy!4v1742497557614!5m2!1sen!2smy" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </section>
+
+        <!--Footer Section-->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 ShopMe. All Rights Reserved.</p>
+            </div>
+            
+            <div class="footer-link">
+                <a href="developer.html">Developer</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
